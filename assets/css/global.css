@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/22JRxvfANxSmnAhzbFH8PgLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/lato/v11/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/lato/v11/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+
+html {
+  height: 100%;
+  min-height:400px;
+  min-width: 300px;
+  font-family: 'Lato';
+  font-weight: 300;
+  margin:0;
+  padding:0;
+}
+body {
+  height: 100%;
+  font-size:100%;
+  line-height:1;
+  margin:0;
+  padding:0;
+}
+  @media screen and (max-width:1400px){
+    body {
+      font-size:94%;
+    }
+  }
+  @media screen and (max-width:1000px){
+    body {
+      font-size:75%;
+    }
+  }
+  @media screen and (max-width:800px){
+    body {
+      font-size:60%;
+    }
+  }
+  @media screen and (max-width:600px){
+    html {
+       min-height: auto;
+    }
+    body {
+      font-size: 50%;
+    }
+  }
+
+input {
+    -webkit-appearance: none;
+    -webkit-border-radius:0; 
+    border-radius:0;
+    padding:0; margin:0;
+    font-family: 'Lato';
+}
